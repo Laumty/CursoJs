@@ -1,3 +1,6 @@
+
+
+
 let stockProductos = [
     {id: 1, nombre: "Buzo 1", cantidad: 1,  precio: 1200, talle: "L", img: "../img/remera.webp"},
     {id: 2, nombre: "Buzo 2", cantidad: 1,  precio: 1100, talle: "L", img: "../img/remera.webp"},

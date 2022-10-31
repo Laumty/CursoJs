@@ -1,6 +1,3 @@
-alert("Bienvenidos a ecommerce piloto")
-
-
 let contenedorProductos = document.getElementById('contenedor-productos')
 let contenedorCarrito = document.getElementById('carrito-contenedor')
 let botonVaciar = document.getElementById('vaciar-carrito')
@@ -10,6 +7,18 @@ let contadorCarrito = document.getElementById('contadorCarrito')
 let cantidad = document.getElementById('cantidad')
 let precioTotal = document.getElementById('precioTotal')
 let cantidadTotal = document.getElementById('cantidadTotal')
+
+class Producto {
+    constructor(id, nombre, precio, talle,img){
+        this.id =id;
+        this.nombre = nombre;
+        this.precio = precio;
+        this.img = img;
+        this.talle = talle;
+        this.cantidad = 1;
+    }
+}
+
 
 let carrito = []
 
